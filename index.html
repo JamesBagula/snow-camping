@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camping</title>
+
+    <!-------Favicon------>
+    <link rel="icon" type="image/png" href="images/fav2.png">
+
+
+    <!-----------Bootstrap 5  CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--------Font Awesome CDN---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="85">
+
+    <!--------Snowflake Design-->
+    <div class="snowflake" style="background-image: url('./images/snow/snow1.png'),url('./images/snow/snow2.png'),url('./images/snow/snow3.png');">
+
+    </div>
+
+
+
+    <!----------Navbar Section------->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="images/logo3.png" class="img-fluid" alt="logo" >
+              </a>
+              <button class="navbar-toggler pe-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fa-solid fa-bars navbar-toggler-icon"></i>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#wish">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#best-deals">Activities</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#donate">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonial">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-----------Banner  SEction----------->
+
+    <section id="home" class="banner_wrapper">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="images/Slider/14.jpg" class="d-block w-100 " alt="...">
+                        <div class="col-md-6 col-10 text-start carousel-caption pt-4">
+                            <h1>Welcome<br class="d-md-block d-none"></h1>
+                            <h3 class="font1">To Snow Camping</h3>
+                            <p style="font-weight: bold;">Flate 20% off  on Your First time</p>
+                            <a href="#" class="main-btn main-btn-yellow">Shop Now</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="10000">
+                        <img src="images/Slider/15.jpg" class="d-block w-100" alt="...">
+                        <div class="col-md-6 col-10 text-start carousel-caption pt-4">
+                            <h1> Get Ready <br class="d-md-block d-none"> </h1>
+                            <h3 class="font1">To Live a life with snow </h3>
+                            <p style="font-weight: bold;">Flate 20% off  on Your First time</p>
+                            <a href="#" class="main-btn main-btn-yellow">Shop Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Wish Section  -->
+
+    <section id="wish" class="wish_wrapper">
+        <div class="py-5 bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h1 class="font3">About Us
+                                <div class="seprator-img"></div>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center"> 
+                    <div class="col-md-5 col-sm-12 text-center pe-lg-3">
+                        <img src="images/about2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 col-sm-12 pt-md-0 pt-4">
+                        <h3 class="text-black font2">We are Best</h3>
+                        <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Officiis ullam consequuntur reiciendis dignissimos ipsa accusamus reprehenderit 
+                            saepe eveniet, omnis labore adipisci blanditiis quidem itaque doloribus?
+                        </p>
+                        <p class="text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Dolor ipsa corrupti nesciunt illum vitae molestias quidem ipsum totam accusantium? 
+                            Ex modi vel enim atque fuga?
+                        </p>
+                        <a href="#" class="main-btn">Read More..</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="py-5 bg-light-white">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-6 col-sm-12 pt-md-0 pt-4">
+                        <h3 class="text-black font2">Trek With Us</h3>
+                        <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Officiis ullam consequuntur reiciendis dignissimos ipsa accusamus reprehenderit 
+                            saepe eveniet, omnis labore adipisci blanditiis quidem itaque doloribus?
+                        </p>
+                        <p class="text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Dolor ipsa corrupti nesciunt illum vitae molestias quidem ipsum totam accusantium? 
+                            Ex modi vel enim atque fuga?
+                        </p>
+                        <a href="#" class="main-btn">Book Now</a>
+                    </div>
+                    <div class="col-md-5 col-sm-12 text-center pe-lg-3">
+                        <img src="images/trek.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Best deal section  -->
+
+    <section class="best_deals_wrapper" id="best-deals">
+        <div class="py-5 bg-white">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h1 class="font3">Activities
+                                <div class="seprator-img"></div>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-4 col-sm-12 p-md-0 deals-item">
+                        <img src="images/deals/d1.jpg" alt="" class="img-fluid w-100">
+                        <div class="deals-text-centertop">
+                            <h4 class="" style="font-weight: bold;">Snow Bike Riding</h4>
+                            <a class="main-btn" href="#">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 p-md-0 deals-item">
+                        <img src="images/deals/d2.jpg" alt="" class="img-fluid w-100">
+                        <div class="deals-text-centertop">
+                            <h4 class="" style="font-weight: bold;">Boating</h4>
+                            <a class="main-btn" href="#">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 p-md-0 deals-item">
+                        <img src="images/deals/d4.jpg" alt="" class="img-fluid w-100">
+                        <div class="deals-text-centertop">
+                            <h4 class="" style="font-weight: bold;">Skiing</h4>
+                            <a class="main-btn" href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Donate section  -->
+    
+
+    <section id="donate" class="donate_wrapper">
+        <div class="py-5 bg-light-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h1 class="font3">Gallery
+                                <div class="seprator-img"></div>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="border border-4 border-white donate-item">
+                            <img src="images/donate/G1.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="border border-4 border-white donate-item">
+                            <img src="images/donate/G2.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="border border-4 border-white donate-item">
+                            <img src="images/donate/G3.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="border border-4 border-white donate-item">
+                            <img src="images/donate/G4.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="border border-4 border-white donate-item">
+                            <img src="images/donate/G5.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="border border-4 border-white donate-item">
+                            <img src="images/donate/G6.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="border border-4 border-white donate-item">
+                            <img src="images/donate/G7.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="border border-4 border-white donate-item">
+                            <img src="images/donate/G8.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="border border-4 border-white donate-item">
+                            <img src="images/donate/G9.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonail  -->
+    <section id="testimonial" class="testimonial_wrapper py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="title-box text-center">
+                        <h1 class="font3">Testimonails
+                            <div class="seprator-img"></div>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselExampleNew" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleNew" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleNew" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleNew" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                <div class="carousel-inner py-5 text-center">
+                  <div class="carousel-item active" >
+                    <figure class="col-md-6 offset-md-3 mt-4">
+                        <div class="testimonial-image">
+                            <img src="images/testimonial/T-1.png" class="img-fluid rounded-circle border border-4 border-danger" alt="">
+                        </div>
+                        <blockquote class="blockquote">
+                            <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quidem illum 
+                                earum ipsam tenetur quae soluta omnis ex laboriosam voluptate.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mt-2">John Doe</figcaption>
+                    </figure>
+                  </div>
+                  <div class="carousel-item">
+                    <figure class="col-md-6 offset-md-3 mt-4">
+                        <div class="testimonial-image">
+                            <img src="images/testimonial/T-2.png" class="img-fluid rounded-circle border border-4 border-danger" alt="">
+                        </div>
+                        <blockquote class="blockquote">
+                            <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quidem illum 
+                                earum ipsam tenetur quae soluta omnis ex laboriosam voluptate.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mt-2">Alex Edward</figcaption>
+                    </figure>
+                  </div>
+                  <div class="carousel-item">
+                    <figure class="col-md-6 offset-md-3 mt-4">
+                        <div class="testimonial-image">
+                            <img src="images/testimonial/T-3.png" class="img-fluid rounded-circle border border-4 border-danger" alt="">
+                        </div>
+                        <blockquote class="blockquote">
+                            <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quidem illum 
+                                earum ipsam tenetur quae soluta omnis ex laboriosam voluptate.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mt-2">Nikki Anderson</figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+    </section>
+
+
+
+
+
+<!-- Footer  -->
+<section id="contact" class="footer_wrapper py-5">
+    <div class="container">
+        <div class="block_newsletter">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="ps-3 mb-4">
+                        <h5 class="text-black">Sign Up Newsletter</h5>
+                        <p class="text-black mb-0">Sign Up & Get Latest Offer</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <form class="input-group">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="images/logo3.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, ipsam. Lorem ipsum
+                     dolor sit amet consectetur, adipisicing elit. Unde, ratione!</p>
+                     <p class="d-flex pt-3">
+                        <a href="#" class="footer_social_media_icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="footer_social_media_icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="footer_social_media_icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="footer_social_media_icon"><i class="fa-brands fa-whatsapp"></i></a>
+                     </p>
+            </div>
+            <div class="col-lg-4 ps-lg-5 mb-4 mb-lg-0">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#wish">About </a>
+                    </li>
+                    <li>
+                        <a href="#best-deals">Activities</a>
+                    </li>
+                    <li>
+                        <a href="#donate">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#testimonial">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-lg-4 ps-lg-5 mb-4 mb-lg-0">
+                <h5>Office Details</h5>
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-baseline">
+                        <i class="fa-solid fa-location-dot text-white pe-4"></i>
+                        <p class="mb-2">123 building,mumbai</p>
+                    </li>
+                    <li class="d-flex align-items-baseline">
+                        <i class="fa-solid fa-phone text-white pe-4"></i>
+                        <a href="#home">735645725637</a>
+                    </li>
+                    <li class="d-flex align-items-baseline">
+                        <i class="fa-regular fa-envelope text-white pe-4"></i>
+                        <a href="#home">123@gmail.com</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-12 text-center pt-5">
+                <p>&copy; 2023 || <a href="#" target="_blank" title="conde4education" class="text-white text-decoration-none">Developed by James Bagula</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
